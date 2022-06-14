@@ -1,0 +1,191 @@
+@charset "utf-8";
+#FigureParadise {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 48px;
+	background-color: #0009B0;
+	color: #FFFFFF;
+	width: 400px;
+	height: 82px;
+	text-align: center;
+	float: left;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+#Tienda {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	background-color: #0009B0;
+	color: #FFFFFF;
+	height: 82px;
+	width: 181px;
+	font-size: 20px;
+	text-align: center;
+	float: left;
+	border-color: #000000;
+	border-style: solid;
+}
+#Contacto {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	background-color: #0009B0;
+	color: #FFFFFF;
+	height: 82px;
+	width: 181px;
+	font-size: 20px;
+	text-align: center;
+	float: left;
+	border-color: #000000;
+	border-style: solid;
+}
+#Regala {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	background-color: #0009B0;
+	color: #FFFFFF;
+	height: 82px;
+	width: 181px;
+	font-size: 20px;
+	float: left;
+	text-align: center;
+	border-color: #000000;
+	border-style: solid;
+}
+
+.FigurasDelDia {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 30px;
+	background-color: #BA7CFF;
+	color: #FFFFFF;
+	width: 581px;
+	height: 470px;
+	text-align: center;
+	clear: right;
+	float: left;
+}
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    }
+                  
+    li{
+	list-style-type: none;
+	position: relative;
+	width: 220px;
+    }
+                
+    li a{
+    text-decoration:none;
+    display:inline-block;
+    padding:5px 10px;
+    width:220px;
+    height:30px;
+    border:1px solid #000;
+    color:#fff;
+    background-color:#BA7CFF;
+    }
+            
+    li a:hover{
+    color:#000;
+    background-color:#BA7CFF;
+                
+    }
+    
+    nav li ul{
+        display:none;
+        position:absolute;
+        top:0px;
+        left:-220px;
+    }
+            
+    nav li:hover ul{
+	display: block;
+}
+.Divacambiar {
+	background-color: #f380ff;
+	color: #FFFFFF;
+	width: 470px;
+	height: 120px;
+	clear: none;
+	float: left;
+}
+.CreacionDeFiguras {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 30px;
+	background-color: #F8C6FF;
+	color: #FFFFFF;
+	width: 581px;
+	height: 475px;
+	text-align: center;
+	float: left;
+}
+.Complemento {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 25px;
+	background-color: #F3A0FF;
+	color: #FFFFFF;
+	width: 470px;
+	height: 475px;
+	text-align: center;
+	float: left;
+	
+}
+.Contacto {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 25px;
+	background-color: #FDF2FF;
+	color: #664268;
+	width: 1051px;
+	height: 60px;
+	float: left;
+	
+}
+.Descripcion {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 35px;
+	background-color: #0009B0;
+	color: #FFFFFF;
+	width: 1051px;
+	height: 65px;
+	text-align: left;
+	float: left;
+	text-align: center;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+.Frase {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	background-color: #BA7CFF;
+	color: #FFFFFF;
+	width: 1051px;
+	height: 130px;
+	text-align: center;
+	clear: right;
+	float: left;
+	border-bottom-color: #010101;
+	border-bottom-style: solid;
+}
+.Disclaimer {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	background-color: #FDF2FF;
+	color: #664268;
+	width: 1051px;
+	height: 65px;
+	float: left;
+}
+#Contenedor {
+	width: 1140px;
+	height: 1370px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-shadow: 0px 0px #AFF6FF;
+	background-color: #BCFBFF;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: auto;
+	padding-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	padding-top: auto;
+	padding-bottom: auto;
+}

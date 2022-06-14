@@ -1,0 +1,33 @@
+@charset "utf-8";
+.Cajas {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 35px;
+	background-color: #0009B0;
+	color: #FFFFFF;
+	width: 900px;
+	height: 82px;
+	text-align: center;
+	float: left;
+}
+.Carrusel {
+	font-size: 35px;
+	background-color: #f380ff;
+	color: #000000;
+	width: 900px;
+	height: px;
+	text-align: center;
+	float: left;
+}
+#Contenedor {
+	width: 900px;
+	height: 700px;
+	background-color: #BCFBFF;
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-top: auto;
+	padding-right: auto;
+	padding-left: auto;
+	padding-bottom: auto;
+}
